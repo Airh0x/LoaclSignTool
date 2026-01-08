@@ -1,0 +1,36 @@
+LocalSignTools - A simplified local-only version of SignTools
+
+Copyright (C) 2024 LocalSignTools Contributors
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+---
+
+DERIVATIVE WORK NOTICE:
+
+This project is a derivative work based on SignTools
+(https://github.com/SignTools/SignTools)
+
+Copyright (C) SignTools Contributors
+
+SignTools is licensed under the GNU Affero General Public License v3.0.
+
+This derivative work:
+- Maintains the same license (AGPL-3.0) as required by the original license
+- Includes modifications to create a local-only version
+- Removes external builder support (GitHub Actions, Semaphore CI, Self-hosted)
+- Keeps only the integrated builder functionality
+- Preserves compatibility with the original project's signing infrastructure
+
+Original SignTools repository: https://github.com/SignTools/SignTools
